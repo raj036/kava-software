@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-sec {
+    background-color: #F0CEFF;
+}
+
+.logo-company a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar li a {
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    color: #6e6969;
+    transition:  all ease-in-out;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.navbar li a:hover {
+    color: #9300FF;
+    border-bottom: 3px solid;
+    overflow: hidden;
+}
+
+.logo-color {
+    color: #9300FF;
+    font-weight: 700;
+}
+
+/* heADER SECTIOn ends here */
+
+/* Career section starts from here */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.career-wrap {
+    padding: 140px 0;
+}
+
+.heading-career {
+    font-size: 42px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.career-sec {
+    background-color: #f8e9ff;
+}
+
+.devlop-icn {
+    /* border: 1px solid; */
+    border-radius: 50%;
+    padding: 25px;
+    background-color: #fff;
+    width: 65px;
+    gap: 20px;
+    box-shadow: 1px 2px 15px 5px lightgrey;
+}
+
+.devlop-icn:hover {
+    background-color: #DF70ff;
+    color: #fff;
+}
+
+.icon-txt-career {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons-career {
+    width: 60px;
+    height: 60px;
+}
+
+.icons-career:hover {
+    transform: rotateY(180deg);
+    transition: 1s all ease;
+    /* background-color: #fff; */
+}
+
+.icons-of-career {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+/* Career section ends here */
+
+/* About us section starts from here */
+
+.about-us-sec {
+    position: relative;
+}
+
+.dwn-arw img {
+    width: 50px;
+    height: 50px;
+}
+
+.dwn-arw {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -26px;
+    cursor: pointer;
+}
+
+
+h1.about-heading {
+    text-align: center;
+    padding: 59px 0 36px 0;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+}
+
+h1.about-heading::after { 
+    content: " ";
+    width: 72px;
+    height: 2px;
+    background-color: #9300FF;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 21px;
+    right: 47%;
+}
+
+.who-we p {
+    color: #878787;
+    line-height: 1.5;
+}
+
+h2.who-we-heading {
+    margin: 20px 0;
+}
+
+section.about-us-sec {
+    padding-bottom: 70px;
+}
+
+
+/* About us section ends here */
+
+/* Service section starts from here */
+
+.service-sec {
+    background-color: #f8e9ff;
+    position: relative;
+}
+
+.icon-txt-webdev {
+    text-align: center;
+    transition: .2s all ease-in;
+}
+
+.icon-txt-webdev:hover {
+    scale: 1.2;
+}
+
+.webdev-icn-wrap {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+h1.service-heading {
+    text-align: center;
+    padding: 59px 0 36px 0;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+}
+
+h1.service-heading::after{
+    content: " ";
+    width: 72px;
+    height: 2px;
+    background-color: #9300FF;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 21px;
+    right: 47%;
+}
+
+h2.web-dev-heading {
+    text-align: center;
+    margin: 20px 0 30px 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+
+.icons-career-wbdv {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Services section ends here */
+
+/* Quote section starts from here */
+
+.quote-sec {
+    padding-bottom: 50px;
+}
+
+.quote-heading {
+    text-align: center;
+    padding: 59px 0 36px 0;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+}
+
+.quote-heading::after {
+    content: " ";
+    width: 72px;
+    height: 2px;
+    background-color: #9300FF;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 21px;
+    right: 47%;
+}
+
+.quote-inp-wrp-whole {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 0 10%;
+}
+
+.quote-inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-inp input {
+    border: none;
+    border-bottom: 1px solid rgb(199, 184, 184);
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.quote-inp-projectdet {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.date-inp {
+    display: flex;
+    gap: 56px;
+}
+
+.prodet {
+    border: none;
+    border-bottom: 1px solid rgb(199, 184, 184);
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.quote-btn {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.qot-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #9300FF;
+    padding: 13px 30px;
+    border: 1px solid;
+    /* border-radius: 26px; */
+    transition: .3s all ease-in-out;
+}
+
+.qot-btn:hover{
+    background-color: #3b1158;
+    transition: .3s all ease-in-out;
+}
+
+/* Quote section ends here */
+
+
+/* contact us page starts from here */
+
+.wrap-contact-callback {
+    background-color: #f8e9ff;
+    padding-bottom: 50px;
+}
+
+.cont-us-heading {
+    text-align: center;
+    padding: 59px 0 36px 0;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+}
+
+.cont-us-heading::after {
+    content: " ";
+    width: 72px;
+    height: 2px;
+    background-color: #9300FF;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 21px;
+    right: 41%;
+}
+
+.details-cont {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.comp-name {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.details-cont i{
+    font-size: 40px;
+    color: #989292;
+}
+
+/* contactus page ends here */
+
+/* call back page starts from here */
+
+.wrap-contact-callback {
+    position: relative;
+}
+
+section.call-back-sec {
+    width: 40%;
+}
+
+section.contact-us-sec {
+    width: 40%;
+}
+
+.call-back-heading {
+    text-align: center;
+    padding: 59px 0 36px 0;
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+}
+
+.call-back-heading::after {
+    content: " ";
+    width: 72px;
+    height: 2px;
+    background-color: #9300FF;
+    border-radius: 10px;
+    margin-left: 23px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 21px;
+    right: 41%;
+}
+
+.wrap-cont-call {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-back-wrap input {
+    width: 90%;
+    display: block;
+    border: 1px solid lightgray;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.call-back-wrap textarea {
+    border: 1px solid lightgray;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.reqcallbk-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+a.reqcall-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #9300FF;
+    padding: 13px;
+    border: 1px solid;
+    /* border-radius: 26px; */
+    transition: .3s all ease-in-out;
+}
+
+a.reqcall-btn:hover {
+    background-color: #3b1158;
+    transition: .3s all ease-in-out;
+
+}
+
+/* call back page ends here */
+
+/* Footer section starts from here */
+
+.footer-sec {
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 0px;
+}
+
+.footer-wrap {
+    display: flex;
+    gap: 80px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.footer-nav li {
+    list-style: none;
+    line-height: 1.7;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #6e6969;
+}
+
+.footer-nav li a:hover{
+    color: rgba(11, 11, 156, 0.793);
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* footer ends here */
+
+/* copyright */
+
+.copyright-head {
+    text-align: center;
+    color: grey;
+    margin-bottom: 50px;
+}
